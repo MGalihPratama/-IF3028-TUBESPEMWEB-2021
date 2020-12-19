@@ -1,7 +1,7 @@
 <fieldset>
     <br><br>
     <div class="wrapper">
-        <h1>SIMPEL LAPOR</h1>
+        <h1> LAPOR.ID </h1>
     </div>
     <h3>Detail laporan/Komentar oleh <?= $keluhan['username'] ?></h3>
     <div class="pusing">
@@ -14,11 +14,10 @@
             <br>
             <table id="footer_detail">
                 <tr>
-                    <td id="si_waktu"> Waktu: <?= $keluhan['waktu']; ?>_
-                        _Aspek: <?= $keluhan['aspek']; ?> </td>
+                    <td id="si_waktu"> Waktu : <?= $keluhan['waktu']; ?> | Aspek : <?= $keluhan['aspek']; ?> </td>
                     <td id="pening">
-                        <a href="#" onClick='alert("Kamu harus login terlebih dahulu sebagai <?= $keluhan['username'] ?>")'>Hapus |</a>
-                        <a href="<?= base_url('user/index'); ?>" style="padding-right:20px ;"> Kembali</a>
+                        <a href="#" onClick='alert("Anda harus login terlebih dahulu sebagai <?= $keluhan['username'] ?>")'> Hapus |</a>
+                        <a href="<?= base_url('user/index'); ?>" style="padding-right:20px ;"> > Kembali</a>
                     </td>
                 </tr>
             </table>
