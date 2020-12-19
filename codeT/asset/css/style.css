@@ -195,7 +195,7 @@ textarea {
 	height: 300px;
 	resize: none;
 	box-sizing: border-box;
-	border: 2px solid chartreuse;
+	border: 2px solid orangered;
 	border-radius: 4px;
 	background-color: #f8f8f8;
 }
@@ -230,7 +230,7 @@ button:hover {
 	bottom: 0%;
 	width: 100%;
 	height: auto;
-	background-color: #dde58f;
+	background-color: orangered;
 	text-align: center;
 }
 
