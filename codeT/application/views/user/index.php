@@ -3,7 +3,7 @@
 		<br>
 		<br>
 		<div class="wrapper">
-			<h1>SIMPEL LAPOR</h1>
+			<h1> LAPOR.ID </h1>
 		</div>
 		<br>
 	</div>
@@ -12,8 +12,8 @@
 		<div class="search">
 			<br>
 			<br>
-			<input type="text" name="keyword" id="keyword" placeholder="Input data lapor/aspek untuk mencaris">
-			<button type="submit" value="Cari">Cari</button>
+			<input type="text" name="keyword" id="keyword" placeholder="Telusuri Lapor/Aspek">
+			<button type="submit" value="Cari">Search</button>
 			<a href="<?= base_url('home') ?>" id="log_login">Logout</a>
 	</form>
 	</div>
@@ -23,7 +23,7 @@
 		</div>
 	<?php endif; ?>
 	<div class="buat">
-		<a href="<?= base_url('data/tambah') ?>">Buat Laporan</a>
+		<a href="<?= base_url('data/tambah') ?>"> Buat Laporan</a>
 		<hr />
 	</div>
 
@@ -51,7 +51,7 @@
 								<td id="waktu">
 									<p>
 										<small style="margin-right: -40px;"><?= $dt['waktu'] . ' '; ?></small>
-										<a href="<?= base_url() ?>data/detailDalam/<?= $dt['id']; ?>" style="text-decoration:none"><small>| Lihat Selengkapnya </small></a></p>
+										<a href="<?= base_url() ?>data/detailDalam/<?= $dt['id']; ?>" style="text-decoration:none"><small>| Lihat Selengkapnya > </small></a></p>
 								</td>
 							</tr>
 						</table>
