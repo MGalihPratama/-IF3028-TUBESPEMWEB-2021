@@ -1,4 +1,5 @@
 <?php
+defined('BASEPATH') or exit('No direct script access allowed');
 
 	class Data_model extends CI_model{
 		//ambil data 
@@ -80,3 +81,4 @@
 			return implode(" ", array_splice($words, 0, $word_limit));
 		}
 }
+?>
