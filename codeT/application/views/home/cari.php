@@ -15,7 +15,7 @@
               <td id="waktu">
                 <p>
                   <small style="margin-right: -40px;"><?= $dt['waktu'] . ' '; ?></small>
-                  <a href="<?= base_url() ?>data/detail/<?= $dt['id']; ?>" style="text-decoration:none"><small>| Lihat Selengkapnya </small></a></p>
+                  <a href="<?= base_url() ?>data/detail/<?= $dt['id']; ?>" style="text-decoration:none"><small>| Lihat Selengkapnya > </small></a></p>
               </td>
             </tr>
           </table>
