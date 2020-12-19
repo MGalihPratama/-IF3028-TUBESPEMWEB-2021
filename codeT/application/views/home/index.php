@@ -2,7 +2,7 @@
 	<div class="judul">
 		<br><br>
 		<div class="wrapper">
-			<h1>SIMPEL LAPOR</h1>
+			<h1> LAPOR.ID </h1>
 		</div>
 	</div>
 	<br>
@@ -11,8 +11,8 @@
 	<form name="formHome" action="" method="post">
 		<div class="search">
 			<br><br>
-			<input type="text" name="keyword" id="keyword" placeholder="Input data lapor/aspek untuk mencari">
-			<button type="submit" value="Cari" id="tombol-cari">Cari</button>
+			<input type="text" name="keyword" id="keyword" placeholder="Telusuri Lapor/Aspek">
+			<button type="submit" value="Cari" id="tombol-cari">Search</button>
 	</form>
 	</div>
 
@@ -22,10 +22,10 @@
 	<?php endif; ?>
 
 	<div class="buat" id="buat">
-		<a href="<?= base_url('auth') ?>">Buat Laporan/Komentar </a>
-		<hr />
+		<a href="<?= base_url('auth') ?>"> +Input Laporan/Komentar </a>
 	</div>
-
+	<br><br>
+	<hr>
 	<div class="tulisan">
 		<p>Laporan/Komentar</p>
 		<hr />
@@ -34,10 +34,9 @@
 		<div class="tulisan2">
 			<div class="newshead">
 				<ul class="detail">
+					<hr><br>
 					<?php foreach ($lapor as $dt) : ?>
-						<?php
-						$limitedKata = $this->Data_model->limitKata($dt['lapor'], 5);
-						?>
+						<?php $limitedKata = $this->Data_model->limitKata($dt['lapor'], 5);?>
 						<?= $limitedKata . ' '; ?>
 						<br>
 						<?= $dt['aspek'] . ' '; ?> <br>
@@ -47,7 +46,7 @@
 								<td id="waktu">
 									<p>
 										<small style="margin-right: -40px;"><?= $dt['waktu'] . ' '; ?></small>
-										<a href="<?= base_url() ?>data/detail/<?= $dt['id']; ?>" style="text-decoration:none"><small>| Lihat Selengkapnya </small></a></p>
+										<a href="<?= base_url() ?>data/detail/<?= $dt['id']; ?>" style="text-decoration:none"><small>| Lihat Selengkapnya > </small></a></p>
 								</td>
 							</tr>
 						</table>
@@ -57,10 +56,5 @@
 			</div>
 		</div>
 	</div>
-	<div id="konten" src="<?= base_url() ?>cari">
-
-	</div>
-
 </fieldset>
-
 <script src="<?= base_url(); ?>asset/js/ajax.js"></script>
