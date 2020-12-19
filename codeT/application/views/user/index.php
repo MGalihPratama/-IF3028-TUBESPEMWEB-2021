@@ -3,7 +3,7 @@
 		<br>
 		<br>
 		<div class="wrapper">
-			<h1> LAPOR.ID </h1>
+			<h1> SIMPLE LAPOR </h1>
 		</div>
 		<br>
 	</div>
