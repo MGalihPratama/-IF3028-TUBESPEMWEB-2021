@@ -3,11 +3,11 @@ ul.navbar {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-image: url("background.jpg");
+	background-image: url("home.png");
 	width: 100%;
 }
 .navbar {
-	top: 0%;
+	top: 10%;
 }
 a li.navbar {
 	float: left;
@@ -94,14 +94,14 @@ p {
 }
 h1 {
 	text-align: center;
-	font-family: "MS Gothic";
+	font-family: "Perpetua";
 	padding: 8px 8px;
 	font-size: 50px;
 }
 
 h2 {
 	font-size: 30px;
-	font-family: papyrus;
+	font-family: cambria;
 }
 
 .search {
@@ -118,7 +118,7 @@ h2 {
 	margin-left: -4px;
 	height: 46px;
 	width: 100px;
-	background-color: rgb(225, 248, 123);
+	background-color: teal;
 }
 
 .buat {
@@ -162,7 +162,7 @@ table {
 
 p {
 	margin-left: 1cm;
-	font-family: minimalust;
+	font-family: Cambria;
 	color: black;
 }
 
@@ -173,12 +173,12 @@ img {
 a {
 	text-decoration: nones;
 	margin-left: 1cm;
-	font-family: minimalust;
+	font-family: Cambria;
 	font-weight: bold;
 }
 
 .tambah {
-	border: 2px solid grey;
+	border: 2px solid chartreuse;
 	align-items: center;
 	font-size: 20px;
 }
@@ -195,7 +195,7 @@ textarea {
 	height: 300px;
 	resize: none;
 	box-sizing: border-box;
-	border: 2px solid grey;
+	border: 2px solid chartreuse;
 	border-radius: 4px;
 	background-color: #f8f8f8;
 }
@@ -218,7 +218,7 @@ button {
 	margin-bottom: 2px;
 	font-size: 15px;
 	font-weight: bold;
-	background-color: #e5ec9f;
+	background-color: teal;
 }
 
 button:hover {
