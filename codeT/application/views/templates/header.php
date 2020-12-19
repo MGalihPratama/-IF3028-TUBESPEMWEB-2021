@@ -22,5 +22,3 @@
 	<div class="navbar">
 		<ul class="navbar" style="height:65px; width:100%;"></ul>
 	</div>
-</body>
-</html>
